@@ -1,5 +1,5 @@
 // public/core.js
-var scotchTodo = angular.module('scotchTodo', []);
+var scotchTodo = angular.module('teamList', ['app.filters']);
 
 function mainController($scope, $http) {
 	$scope.formData = {};
