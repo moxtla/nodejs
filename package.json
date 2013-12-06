@@ -1,12 +1,14 @@
 {
   "name": "mean-examples",
   "version": "0.0.1",
+  "description": "Simple files for MEAN stack tutorial",
   "private": true,
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
     "express": "3.4.4",
+    "mongoose": "3.6.2",
     "jade": "*"
   }
 }
